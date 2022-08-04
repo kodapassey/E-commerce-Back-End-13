@@ -12,12 +12,13 @@ router.get('/', (req, res) => {
       'id',
       'product_name',
       'price',
-      'stock'
+      'stock',
+      'category_id'
     ],
     indlude: [
       {
         model: Category,
-        attributes: ['category_name']
+        attributes: ['id', 'category_name']
       }
     ],
     include: [
@@ -47,12 +48,13 @@ router.get('/:id', (req, res) => {
       'id',
       'product_name',
       'price',
-      'stock'
+      'stock',
+      'category_id'
     ],
     indlude: [
       {
         model: Category,
-        attributes: ['category_name']
+        attributes: ['id', 'category_name']
       }
     ],
     include: [
