@@ -2,6 +2,13 @@
 
   ## Description
   The E-commerce-Back-End project is my week 13 challenge assignment. The assignment is to connect the back end database to the server using mysql, sequelize, and express.
+  
+  ## Video showing how this application works
+  
+
+https://user-images.githubusercontent.com/101370470/182962852-bfc9a12b-2782-4e11-9e2c-e5201c634987.mp4
+
+
 
   ## Table of Contents
   - [Description](#description)
